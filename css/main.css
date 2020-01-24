@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+body {
+	font-family: "Trebuchet MS", "Lucida Grande", Arial, Helvetica, sans-serif;
+	background-color: #f9f7ed;
+	font-size: small;
+	text-align:center;
+}
+header{
+	width:100%;
+	left:0;
+	top:0;
+	z-index:999;
+}
+footer{
+}
+
+#midbar {
+background-color: #f9f7ed;
+padding-top:250px;
+padding-bottom:100px;
+padding-right:10px;
+padding-left:10px;
+margin-right:0px;
+}
+/*Left panel elements*/
+#calendar{
+	width:80%;
+	margin:0 auto;
+	padding-left:0px;
+	padding-right:0px;
+	background:#92a8e3;
+	color:#1c180e;
+}
+
+.leftbox{
+	width:80%;
+	background:#92a8e3;
+	margin-top:25px;
+	margin-bottom:25px;
+	color:#1c180e;
+	padding:0px;
+}
+.leftcontent{
+	background-color:#dbdbdb;
+	width:100%;
+	min-height:50px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.leftcontent>a {
+	font-size: 1em;
+	color: #1c180e;
+}
+/* end of left panel elements*/
+#rside{
+	padding-right:15px;
+	padding-left:25px;
+}
+#bottom {
+	background:#1340b8;
+	color:#bfbfbf;
+}
+
+/*media elements*/
+.text {
+	font-size: 1.2em;
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+.darktext{
+    font-size: 1em;
+    color: #1c180e;
+}
+.darktext>a:link {
+    font-size: 1em;
+    color: #1c180e;
+}
+.darktext>a:visited {
+    font-size: 1em;
+    color: #1c180e;
+}
+
+.logo{
+	height:108px;
+}
+.image{
+	margin:10px;
+	float:left;
+	clear: both;
+}
+.clearboth{
+	clear:both;
+}
+.small{
+	max-width:40%;
+	margin:5px;
+}
+.hidingdiv{
+	display: none;
+}
+#hidingdiv{
+	display: none;
+}
+.showhide{
+	width:90%
+}
+#showhide{
+	width:90%
+}
+.username{
+		color:#e2d4d1;
+		font-size:1.2em;
+}
+.center{
+	margin:0 auto;
+}
+.img-responsive{
+	display:flex;
+    align-content: center;
+    margin:0 auto;
+}
+.btn-hide{
+	width:100%;
+	margin:0 auto;
+	color:#1c180e;
+	font-size:1.3em;
+	background-color: #92a8e3;
+}
+.btn-hide:visited{
+	color:#1c180e;
+}
+.btn-hide:hover{
+	color:#1c180e;
+}
+.btn-danger {
+    margin-top:5px;
+    background-color: #b82213;
+}
+.shadow {
+	    box-shadow: 5px 5px 5px  5px #bfbfbf;
+}
+/* end of media*/
+
+
+/*Navbar CSS*/
+nav {
+	height:40px;
+	background-color:#b82213;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	align-items: center;
+	flex-flow: column wrap;
+	text-align: center;
+}
+#banner {
+	height:140px;
+	background-color:#1340b8;
+  align-items: center;
+}
+
+#logo{
+max-height:140px;
+
+}
+#slider{
+max-height:140px;
+
+}
+#login{
+	max-height:140px;
+  margin-top: 25px;
+  align-content: center;
+
+}
+
+nav ul, nav li {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+		font-size: 1.3em;
+		color: #dbdbdb;
+		text-decoration: none;
+		padding-left: 5px;
+}
+.navbar-nav>li>a:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+		font-size: 1.3em;
+		color: #37352f;
+		text-decoration: none;
+		padding-left: 5px;
+}
+.navbar {
+	min-height:35px;
+	margin-bottom:0px;
+	border-radius:0;
+}
+.navbar-collapse {
+	background-color: #bd070d;
+}
+.navbar-header{
+	background-color: #bd070d;
+}
+nav {
+	box-sizing: border-box;
+	padding: 0%;
+	background-color: #bd070d;
+	margin-bottom: 1%;
+	width: 100%;
+	height: 40px;
+	font-weight: bold;
+}
+nav>a:link {
+	font-size: 1.3em;
+	color: #dbdbdb;
+	text-decoration: none;
+	padding-left: 5px;
+}
+nav>a:visited {
+	font-size: 1.3em;
+	color: #d1bfbf;
+	text-decoration: none;
+	padding-left: 5px;
+}
+nav>a:hover {
+	font-size: 1.3em;
+	color: #1c180e;
+	text-decoration: none;
+	padding-left: 5px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+	background-color: #e2d4d1;
+}
+.navbar-toggle .icon-bar {
+	background-color: #e2d4d1;
+}
+.navbar-toggle{
+	border: 1px solid #e2d4d1;
+	padding:3px;
+
+}
+.dropdown-menu {
+	color: #e2d4d1;
+	background-color: #bd070d;
+}
+.dropdown-menu>li>a {
+	color: #c3bebd;
+	padding:5px 5px;
+	font-size:1.1em;
+}
+.dropdown-menu>li {
+	border-bottom:1px solid #e2d4d1;
+}
+a:link {
+	font-size:0.9em;
+	color: #37352f;
+	text-decoration: none;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+a:visited {
+	font-size:0.9em;
+	color: #81817f;
+	text-decoration: none;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+a:hover {
+  color:#1c180e;
+}
+/*End of Navbar CSS*/
