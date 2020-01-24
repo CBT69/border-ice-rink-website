@@ -109,7 +109,7 @@ include "inc/connaddress.php";
         <!-- Footer holder-->
         <footer class="shadow">
             <div id="bottom" class="row">
-                <p> Created by K. Luc for New College Lanarkshire - 2017 </p>
+                <p> Created by Creative Break Time for New College Lanarkshire - 2017 </p>
             </div>
         </footer>
     </body>
